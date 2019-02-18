@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rwa>
+<rwa version="1.0">
+    <manifest rwascript=""/>
+    <scene name="Scene 0" lon="12.48456448" lat="41.89274985" zoom="19" numberofstates="7" areatype="4" radius="200" width="200" height="200" level="-1" exitoffset="0" fallbackdisabled="0" minstaytime="4">
+        <corners>
+            <lon>12.48572052</lon>
+            <lat>41.89249828</lat>
+            <lon>12.48449206</lon>
+            <lat>41.89295750</lat>
+            <lon>12.48420238</lon>
+            <lat>41.89294952</lat>
+            <lon>12.48421311</lon>
+            <lat>41.89274187</lat>
+            <lon>12.48538792</lon>
+            <lat>41.89208298</lat>
+            <lon>12.48566687</lon>
+            <lat>41.89226267</lat>
+        </corners>
+        <exitoffsetcorners/>
+        <state name="FALLBACK" type="1" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="3" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="0">
+            <enterconditions>
+                <gps isgps="0" lon="12.48577952" lat="41.89408758" radius="10" width="20" height="20" enteroffset="-6" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets/>
+        </state>
+        <state name="BACKGROUND" type="2" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="3" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="0" lon="12.48533428" lat="41.89450287" radius="10" width="-1" height="-1" enteroffset="-6" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets/>
+        </state>
+        <state name="pos0" type="3" areatype="1" zoom="19" assetsfollowstate="1" defaultplaybacktype="4" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="1" lon="12.48468786" lat="41.89269794" radius="5" width="100" height="100" enteroffset="0" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicero_pos0.pd" type="3" gain="1" hascoordinates="1" lon="12.48458058" lat="41.89274986" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="0" lockposition="0" alwaysplayfrombeginning="0" loop="0" mute="0" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4847" startpositionlat="41.8927" offset="0">
+                    <channelpositions/>
+                </asset>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicerospeech.wav" type="1" gain="1" hascoordinates="1" lon="12.48468786" lat="41.89269794" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="48956" lockposition="0" alwaysplayfrombeginning="1" loop="1" mute="1" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="20" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4847" startpositionlat="41.8927" offset="0">
+                    <channelpositions/>
+                </asset>
+            </assets>
+        </state>
+        <state name="pos2" type="3" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="4" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="1" lon="12.48480856" lat="41.89264004" radius="5" width="100" height="100" enteroffset="0" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicerospeech.wav" type="1" gain="1" hascoordinates="1" lon="12.48480856" lat="41.89264004" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="48956" lockposition="0" alwaysplayfrombeginning="1" loop="1" mute="1" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4848" startpositionlat="41.8926" offset="0">
+                    <channelpositions/>
+                </asset>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicero_pos2.pd" type="3" gain="1" hascoordinates="1" lon="12.48458326" lat="41.89274586" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="0" lockposition="0" alwaysplayfrombeginning="1" loop="0" mute="0" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4848" startpositionlat="41.8926" offset="0">
+                    <channelpositions/>
+                </asset>
+            </assets>
+        </state>
+        <state name="pos4" type="3" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="4" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="1" lon="12.48493195" lat="41.89258813" radius="5" width="100" height="100" enteroffset="0" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicerospeech.wav" type="1" gain="1" hascoordinates="1" lon="12.48493195" lat="41.89258813" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="48956" lockposition="0" alwaysplayfrombeginning="1" loop="1" mute="1" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4849" startpositionlat="41.8926" offset="0">
+                    <channelpositions/>
+                </asset>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicero_pos4.pd" type="3" gain="1" hascoordinates="1" lon="12.48458326" lat="41.89274586" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="0" lockposition="0" alwaysplayfrombeginning="1" loop="0" mute="0" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4849" startpositionlat="41.8926" offset="0">
+                    <channelpositions/>
+                </asset>
+            </assets>
+        </state>
+        <state name="pos6" type="3" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="4" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="1" lon="12.48504728" lat="41.89253222" radius="5" width="100" height="100" enteroffset="0" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicerospeech.wav" type="1" gain="1" hascoordinates="1" lon="12.48504728" lat="41.89253222" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="48956" lockposition="0" alwaysplayfrombeginning="1" loop="1" mute="1" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.485" startpositionlat="41.8925" offset="0">
+                    <channelpositions/>
+                </asset>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicero_pos6.pd" type="3" gain="1" hascoordinates="1" lon="12.48457789" lat="41.89274586" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="0" lockposition="0" alwaysplayfrombeginning="1" loop="0" mute="0" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.485" startpositionlat="41.8925" offset="0">
+                    <channelpositions/>
+                </asset>
+            </assets>
+        </state>
+        <state name="pos8" type="3" areatype="1" zoom="18" assetsfollowstate="1" defaultplaybacktype="4" lockposition="0" statewithinstate="0" leaveafterassetsfinish="0" leaveonlyafterassetsfinish="0" enteronlyonce="0" timeout="0" minstaytime="4">
+            <enterconditions>
+                <gps isgps="1" lon="12.48516530" lat="41.89247432" radius="5" width="100" height="100" enteroffset="0" exitoffset="0"/>
+                <requiredstates/>
+                <corners/>
+                <exitoffsetcorners/>
+            </enterconditions>
+            <actions>
+                <nextstate></nextstate>
+                <hintstate></hintstate>
+            </actions>
+            <assets>
+                <asset url="/Users/admin/Desktop/ForumWalkIn/assets/assets/cicerospeech.wav" type="1" gain="1" hascoordinates="1" lon="12.48516530" lat="41.89247432" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="48956" lockposition="0" alwaysplayfrombeginning="1" loop="1" mute="1" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="0" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4852" startpositionlat="41.8925" offset="0">
+                    <channelpositions/>
+                </asset>
+                <asset url="/Users/admin/Desktop/ForumWalkIn0To8/assets/cicero_pos8.pd" type="3" gain="1" hascoordinates="1" lon="12.48516530" lat="41.89247432" playbacktype="4" damping="1" dampingfactor="30" dampingtrim="2" dampingmin="0" dampingmax="1" mindistance="-1" fadein="50" fadeout="50" crossfadetime="100" duration="0" lockposition="0" alwaysplayfrombeginning="1" loop="0" mute="0" headtrackerrelative2source="1" loopuntilendposition="0" gps2pd="0" isexclusive="0" channelradius="20" rawsensors2pd="0" playonlyonce="0" speed="20" move="0" rotateoffset="0" rotatefrequency="0" rotate="0" fixedazimuth="-1" fixeddistance="-1" fixedelevation="-1" startpositionlon="12.4852" startpositionlat="41.8925" offset="0">
+                    <channelpositions/>
+                </asset>
+            </assets>
+        </state>
+    </scene>
+</rwa>
